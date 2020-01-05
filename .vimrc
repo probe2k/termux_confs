@@ -1,0 +1,2 @@
+color desert
+set number
