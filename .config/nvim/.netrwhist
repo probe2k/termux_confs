@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/probe/.config/nvim/plugged/goyo.vim'
+let g:netrw_dirhist_8='/home/probe/.config/nvim/plugged'
+let g:netrw_dirhist_7='/home/probe/.config/nvim/plugged/goyo.vim/plugin'
+let g:netrw_dirhist_6='/home/probe/.config/nvim/plugged/goyo.vim'
+let g:netrw_dirhist_5='/home/probe/.config/nvim/plugged'
+let g:netrw_dirhist_4='/home/probe/.config'
+let g:netrw_dirhist_3='/home/probe/.config/i3'
+let g:netrw_dirhist_2='/home/probe/.config'
+let g:netrw_dirhist_1='/home/probe/.config/nvim/plugged/vim-airline/autoload/airline'
