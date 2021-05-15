@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/probe/.config/nvim'
+let g:netrw_dirhist_2='/home/probe/.config/nvim/keymaps'
+let g:netrw_dirhist_1='/home/probe/.config/nvim/themes'
+let g:netrw_dirhist_0='/home/probe/.config/nvim'
+let g:netrw_dirhist_9='/home/probe/.config/nvim/plugged/vim-airline/autoload/airline/themes'
+let g:netrw_dirhist_8='/home/probe/.config/nvim/plugged/vim-airline/autoload/airline'
+let g:netrw_dirhist_7='/home/probe/.config/nvim/plugged/vim-airline'
+let g:netrw_dirhist_6='/home/probe/test'
+let g:netrw_dirhist_5='/home/probe/.config/google-chrome'
+let g:netrw_dirhist_4='/home/probe/.zsh_plugin/zsh-autosuggestions'
