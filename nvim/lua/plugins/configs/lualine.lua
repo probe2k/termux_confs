@@ -89,13 +89,6 @@ function M.config()
 				diff
 			},
 			lualine_x = {
-				{
-					function()
-						return ' '
-					end,
-					--separator = { left = '', right = '' },
-					color = { bg = '#8FBCBB', fg = '#000000' },
-				},
 				'progress',
 				{
 					function()
