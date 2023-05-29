@@ -119,7 +119,7 @@ end
 
 local custom_icons = {
 	function()
-		return ''
+		return ' '
 	end,
 	--separator = { left = '', right = '' },
 }
@@ -157,7 +157,7 @@ function M.config()
 		},
 		sections = {
 			lualine_a = {
---				custom_icons,
+				custom_icons,
 				modes,
 			},
 			lualine_b = {
@@ -186,7 +186,7 @@ function M.config()
 				},
 				{
 					function()
-						return ''
+						return ' '
 					end,
 					--separator = { left = '', right = '' },
 					color = { bg = '#8FBCBB', fg = '#000000' },
@@ -194,7 +194,7 @@ function M.config()
 				'progress',
 				{
 					function()
-						return ''
+						return ' '
 					end,
 					--separator = { left = '', right = '' },
 					color = { bg = '#ECD3A0', fg = '#000000' },
@@ -204,7 +204,7 @@ function M.config()
 				},
 				{
 					function()
-						return ''
+						return ' '
 					end,
 					--separator = { left = '', right = '' },
 					color = { bg = '#86AAEC', fg = '#000000' },

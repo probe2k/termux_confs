@@ -64,7 +64,6 @@ return {
 			-- cmp sources plugins
 			{
 				'saadparwaiz1/cmp_luasnip',
-				'hrsh7th/cmp-nvim-lsp',
 				'hrsh7th/cmp-buffer',
 				'hrsh7th/cmp-path',
 			},
@@ -74,16 +73,6 @@ return {
 		end,
 	},
 
-
-	-- managing and installing lsp servers
-	{
-		'williamboman/mason.nvim',
-		cmd = { 'Mason' },
-		dependencies = 'williamboman/mason-lspconfig.nvim',
-		init = function()
-			require('plugins.configs.mason').config()
-		end,
-	},
 
 	-- add git integrations
 	{
@@ -102,27 +91,6 @@ return {
 		end,
 		config = function()
 			require('plugins.configs.indent-blankline').config()
-		end,
-	},
-
-	-- configure lsp servers
-	{
-		'neovim/nvim-lspconfig',
-		dependencies = {
-			{
-				'glepnir/lspsaga.nvim',
-				branch = 'main',
-				dependencies = 'onsails/lspkind.nvim',
-				init = function()
-					require('plugins.configs.lspsaga').config()
-				end,
-			},
-		},
-		init = function()
-			require('core.utils').lazy_load 'nvim-lspconfig'
-		end,
-		config = function()
-			require('plugins.configs.lspconfig').config()
 		end,
 	},
 
