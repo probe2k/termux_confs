@@ -1,4 +1,4 @@
-PROMPT='%(?.%F{green}.%F{red}) %(!.%F{red}%n.%F{117}%n)%f %F{214}%~%f '
+PROMPT='%(?.%F{green}.%F{red}) %B%(!.%F{red}%n.%F{117}%n)%f %F{214}%~%f%b '
 
 alias ls='ls --color=auto'
 alias ip='ip -c'
