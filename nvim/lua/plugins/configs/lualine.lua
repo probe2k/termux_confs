@@ -22,7 +22,7 @@ local branch = {
 
 local custom_icon = {
 	function()
-		return '󰣇 '
+		return ''
 	end,
 	separator = { left = '', right = '' },
 	color = { bg = '#ff6961', fg = '#111111' }
