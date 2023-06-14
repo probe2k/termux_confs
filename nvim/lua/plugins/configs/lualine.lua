@@ -7,7 +7,7 @@ local diff = {
 		removed = ' ',
 	},
 	color = { bg = '#1c2e4a' },
-	separator = { left = '', right = '' },
+	separator = { left = '', right = '' },
 }
 
 local branch = {
@@ -68,8 +68,8 @@ local options = {
 	sections = {
 		lualine_a = { custom_icon, mode },
 		lualine_b = { filetype, filename },
-		lualine_c = { branch, diff },
-		lualine_x = { location },
+		lualine_c = { branch },
+		lualine_x = { diff, location },
 		lualine_y = {},
 		lualine_z = {},
 	}
