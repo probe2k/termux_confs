@@ -1,20 +1,19 @@
 return {
 	defaults = { lazy = true },
-	install = { colorscheme = { 'nvchad' } },
 
 	ui = {
 		icons = {
-			ft = '',
-			lazy = '󰂠 ',
-			loaded = '',
-			not_loaded = '',
+			ft = "",
+			lazy = "󰂠 ",
+			loaded = "",
+			not_loaded = "",
 		},
 	},
 
 	performance = {
-		cache = {
-			enabled = true,
-		},
+--		cache = {
+--			enabled = true,
+--		},
 		rtp = {
 			disabled_plugins = {
 				'2html_plugin',
