@@ -55,10 +55,14 @@ local location = {
 	color = { bg = '#59adf6', fg = '#111111' },
 }
 
+local theme = require('lualine.themes.tokyonight')
+theme.normal.c.bg = nil
+
 local options = {
 	options = {
 		globalstatus = true,
 		icons_enabled = true,
+		theme = theme,
 		component_separators = { left = '', right = '' },
 		section_separators = { left = '', right = '' },
 		disabled_filetypes = { 'alpha', 'dashboard', 'packer' },
